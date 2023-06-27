@@ -1,0 +1,151 @@
+{
+  "$id": "https://schemas.antora.org/site-manifest/1-0-0/draft-01",
+  "generated": "2023-06-27T16:40:09.153Z",
+  "url": "https://rwinch.github.io/spring-data-commons",
+  "components": {
+    "data-commons": {
+      "title": "Spring Data Commons",
+      "latest": "3.2.0-SNAPSHOT",
+      "versions": {
+        "3.2.0-SNAPSHOT": {
+          "url": "/index.html",
+          "pages": [
+            {
+              "path": "index.adoc",
+              "url": "/index.html",
+              "title": "Spring Data Commons"
+            },
+            {
+              "path": "auditing.adoc",
+              "url": "/auditing.html",
+              "title": "Auditing"
+            },
+            {
+              "path": "dependencies.adoc",
+              "url": "/dependencies.html",
+              "title": "Dependencies"
+            },
+            {
+              "path": "is-new-state-detection.adoc",
+              "url": "/is-new-state-detection.html",
+              "title": "Entity State Detection Strategies"
+            },
+            {
+              "path": "kotlin-coroutines.adoc",
+              "url": "/kotlin-coroutines.html",
+              "title": "Coroutines"
+            },
+            {
+              "path": "kotlin-extensions.adoc",
+              "url": "/kotlin-extensions.html",
+              "title": "Extensions"
+            },
+            {
+              "path": "kotlin.adoc",
+              "url": "/kotlin.html",
+              "title": "Kotlin Support"
+            },
+            {
+              "path": "object-mapping.adoc",
+              "url": "/object-mapping.html",
+              "title": "Object Mapping Fundamentals"
+            },
+            {
+              "path": "preface.adoc",
+              "url": "/preface.html",
+              "title": "Preface"
+            },
+            {
+              "path": "query-by-example.adoc",
+              "url": "/query-by-example.html",
+              "title": "Query by Example"
+            },
+            {
+              "path": "repositories-null-handling.adoc",
+              "url": "/repositories-null-handling.html"
+            },
+            {
+              "path": "repositories-scrolling.adoc",
+              "url": "/repositories-scrolling.html"
+            },
+            {
+              "path": "repositories.adoc",
+              "url": "/repositories.html",
+              "title": "Working with Spring Data Repositories"
+            },
+            {
+              "path": "repositories/core-concepts.adoc",
+              "url": "/repositories/core-concepts.html",
+              "title": "Core concepts"
+            },
+            {
+              "path": "repositories/core-domain-events.adoc",
+              "url": "/repositories/core-domain-events.html",
+              "title": "Publishing Events from Aggregate Roots"
+            },
+            {
+              "path": "repositories/core-extensions.adoc",
+              "url": "/repositories/core-extensions.html",
+              "title": "Spring Data Extensions"
+            },
+            {
+              "path": "repositories/create-instances.adoc",
+              "url": "/repositories/create-instances.html",
+              "title": "Creating Repository Instances"
+            },
+            {
+              "path": "repositories/custom-implementations.adoc",
+              "url": "/repositories/custom-implementations.html",
+              "title": "Custom Implementations for Spring Data Repositories"
+            },
+            {
+              "path": "repositories/definition.adoc",
+              "url": "/repositories/definition.html",
+              "title": "Defining Repository Interfaces"
+            },
+            {
+              "path": "repositories/query-methods-details.adoc",
+              "url": "/repositories/query-methods-details.html",
+              "title": "Defining Query Methods"
+            },
+            {
+              "path": "repositories/query-methods.adoc",
+              "url": "/repositories/query-methods.html",
+              "title": "Query Methods"
+            },
+            {
+              "path": "repository-namespace-reference.adoc",
+              "url": "/repository-namespace-reference.html",
+              "title": "Namespace reference"
+            },
+            {
+              "path": "repository-populator-namespace-reference.adoc",
+              "url": "/repository-populator-namespace-reference.html",
+              "title": "Populators namespace reference"
+            },
+            {
+              "path": "repository-projections.adoc",
+              "url": "/repository-projections.html",
+              "title": "Projections"
+            },
+            {
+              "path": "repository-query-keywords-reference.adoc",
+              "url": "/repository-query-keywords-reference.html",
+              "title": "Repository query keywords"
+            },
+            {
+              "path": "repository-query-return-types-reference.adoc",
+              "url": "/repository-query-return-types-reference.html",
+              "title": "Repository query return types"
+            },
+            {
+              "path": "upgrade.adoc",
+              "url": "/upgrade.html",
+              "title": "Upgrading Spring Data"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

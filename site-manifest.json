@@ -1,6 +1,6 @@
 {
   "$id": "https://schemas.antora.org/site-manifest/1-0-0/draft-01",
-  "generated": "2023-06-27T16:40:09.153Z",
+  "generated": "2023-06-28T19:20:14.952Z",
   "url": "https://rwinch.github.io/spring-data-commons",
   "components": {
     "data-commons": {

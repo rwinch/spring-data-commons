@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Page Not Found :: Spring Data Commons</title>
+    <title>Query Methods :: Spring Data Commons</title>
+    <link rel="canonical" href="https://rwinch.github.io/spring-data-commons/repositories/query-methods.html">
+    <link rel="prev" href="core-concepts.html">
+    <link rel="next" href="definition.html">
     <meta name="generator" content="Antora 3.2.0-alpha.2">
     <script>
 !function (theme, navWidth) {
@@ -12,15 +15,15 @@
 }(localStorage && localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)') && 'dark'),
   localStorage && localStorage.getItem('nav-width'))
     </script>
-    <link rel="stylesheet" href="/spring-data-commons/_/css/site.css">
-    <link rel="stylesheet" href="/spring-data-commons/_/css/vendor/search.css">
-    <link rel="stylesheet" href="/spring-data-commons/_/css/vendor/spring-tabs.css">
+    <link rel="stylesheet" href="../_/css/site.css">
+    <link rel="stylesheet" href="../_/css/vendor/search.css">
+    <link rel="stylesheet" href="../_/css/vendor/asciidoctor-tabs.css">
 
-    <meta name="version" content="">
-    <meta name="component" content="">
-    <link rel="icon" href="/spring-data-commons/_/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <meta name="version" content="3.2.0-SNAPSHOT">
+    <meta name="component" content="data-commons">
+    <link rel="icon" href="../_/img/favicon.ico" type="image/vnd.microsoft.icon">
   </head>
-  <body class="status-404">
+  <body class="article">
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
@@ -28,7 +31,7 @@
         <img
           id="springlogo"
           class="block"
-          src="/spring-data-commons/_/img/spring-logo.svg"
+          src="../_/img/spring-logo.svg"
           alt="Spring"
         />
       </a>
@@ -238,14 +241,14 @@
   }
 }(localStorage && localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)') && 'dark'))
 </script><div class="body">
-<div class="nav-container">
+<div class="nav-container" data-component="data-commons" data-version="3.2.0-SNAPSHOT">
   <aside class="nav">
     <div class="panels">
       <div class="nav-panel-menu is-active" data-panel="menu">
         <nav class="nav-menu">
 <div class="context">
-  <span class="title"></span>
-  <span class="version"></span>
+  <span class="title">Spring Data Commons</span>
+  <span class="version">3.2.0-SNAPSHOT</span>
 </div><div class="search">
   <button class="DocSearch-Button search-button">
     <svg enable-background="new 0 0 32 32" id="Glyph" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -255,15 +258,87 @@
     <span class="search-key"></span>
   </button>
 </div>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Overview</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../dependencies.html">Dependencies</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../object-mapping.html">Object Mapping Fundamentals</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../repositories.html">Working with Spring Data Repositories</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="core-concepts.html">Core concepts</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="query-methods.html">Query Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="definition.html">Defining Repository Interfaces</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="query-methods-details.html">Defining Query Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="create-instances.html">Creating Repository Instances</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="custom-implementations.html">Custom Implementations for Spring Data Repositories</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="core-domain-events.html">Publishing Events from Aggregate Roots</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="core-extensions.html">Spring Data Extensions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../repository-projections.html">Projections</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../query-by-example.html">Query by Example</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../auditing.html">Auditing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Appendices</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../repository-namespace-reference.html">Namespace reference</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../repository-populator-namespace-reference.html">Populators namespace reference</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../repository-query-keywords-reference.html">Repository query keywords</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../repository-query-return-types-reference.html">Repository query return types</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
         </nav>
       </div>
     </div>
 <ul id="nav-versions" class="nav-versions">
-  <li class="component">
-    <a class="title" href="/spring-data-commons/index.html">Spring Data Commons</a>
+  <li class="component is-current">
+    <a class="title" href="../index.html">Spring Data Commons</a>
     <ul class="versions">
-      <li class="version is-latest">
-        <a href="/spring-data-commons/index.html">
+      <li class="version is-current is-latest">
+        <a href="../index.html">
           3.2.0-SNAPSHOT<span class="current">current</span>
         </a>
       </li>
@@ -286,22 +361,156 @@
 </div>
 </div>
   <div class="content">
-<article class="doc">
-<h1 class="page">Page Not Found</h1>
+<aside class="sidebar">
+  <div class="content">
+    <div
+      class="toc"
+      data-title="Query Methods"
+      data-levels="2"
+    >
+      <div class="toc-menu"></div>
+    </div>
+      <div class="edit-this-page"><a href="https://github.com/rwinch/spring-data-commons/edit/antora/modules/ROOT/pages/repositories/query-methods.adoc">Edit this Page</a></div>
+      </div>
+</aside><div class="doc">
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Spring Data Commons</a></li>
+    <li><a href="../repositories.html">Working with Spring Data Repositories</a></li>
+    <li><a href="query-methods.html">Query Methods</a></li>
+  </ul>
+</nav>
+<article>
+<h1 id="page-title" class="page">Query Methods</h1>
 <div class="paragraph">
-<p>The page you&#8217;re looking for does not exist. It may have been moved. You can follow one of the links in the navigation to the left.</p>
+<p>Standard CRUD functionality repositories usually have queries on the underlying datastore.
+With Spring Data, declaring those queries becomes a four-step process:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Declare an interface extending Repository or one of its subinterfaces and type it to the domain class and ID type that it should handle, as shown in the following example:</p>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">interface PersonRepository extends Repository&lt;Person, Long&gt; { … }</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Declare query methods on the interface.</p>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">interface PersonRepository extends Repository&lt;Person, Long&gt; {
+  List&lt;Person&gt; findByLastname(String lastname);
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Set up Spring to create proxy instances for those interfaces, either with <a href="create-instances.html#repositories.create-instances.java-config" class="xref page">JavaConfig</a> or with <a href="create-instances.html" class="xref page">XML configuration</a>.</p>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock primary">
+<div class="title">Java</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java"><span class="fold-block is-hidden-folded">import org.springframework.data.….repository.config.EnableJpaRepositories;
+
+</span><span class="fold-block">@EnableJpaRepositories
+class Config { … }</span></code></pre>
+</div>
+</div>
+<div class="listingblock secondary">
+<div class="title">XML</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/data/jpa
+     https://www.springframework.org/schema/data/jpa/spring-jpa.xsd"&gt;
+
+   &lt;repositories base-package="com.acme.repositories"/&gt;
+
+&lt;/beans&gt;</code></pre>
+</div>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p>If you arrived on this page by clicking on a link, please notify the owner of the site that the link is broken.
-If you typed the URL of this page manually, please double check that you entered the address correctly.</p>
+<p>The JPA namespace is used in this example.
+If you use the repository abstraction for any other store, you need to change this to the appropriate namespace declaration of your store module.
+In other words, you should exchange <code>jpa</code> in favor of, for example, <code>mongodb</code>.</p>
 </div>
+<div class="paragraph">
+<p>Note that the JavaConfig variant does not configure a package explicitly, because the package of the annotated class is used by default.
+To customize the package to scan, use one of the <code>basePackage…</code> attributes of the data-store-specific repository&#8217;s <code>@EnableJpaRepositories</code>-annotation.</p>
+</div>
+</li>
+<li>
+<p>Inject the repository instance and use it, as shown in the following example:</p>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">class SomeClient {
+
+  private final PersonRepository repository;
+
+  SomeClient(PersonRepository repository) {
+    this.repository = repository;
+  }
+
+  void doSomething() {
+    List&lt;Person&gt; persons = repository.findByLastname("Matthews");
+  }
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The sections that follow explain each step in detail:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="definition.html" class="xref page">Defining Repository Interfaces</a></p>
+</li>
+<li>
+<p><a href="query-methods-details.html" class="xref page">Defining Query Methods</a></p>
+</li>
+<li>
+<p><a href="create-instances.html" class="xref page">Creating Repository Instances</a></p>
+</li>
+<li>
+<p><a href="custom-implementations.html" class="xref page">Custom Implementations for Spring Data Repositories</a></p>
+</li>
+</ul>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="core-concepts.html">Core concepts</a></span>
+  <span class="next"><a href="definition.html">Defining Repository Interfaces</a></span>
+</nav>
 </article>
-  </div>
+</div>  </div>
 </main>
 </div>
 <footer class="footer flex">
     <div id="spring-links flex">
-        <img id="springlogo" src="/spring-data-commons/_/img/spring-logo.svg" alt="Spring">
+        <img id="springlogo" src="../_/img/spring-logo.svg" alt="Spring">
         <p class="smallest antialiased">© <script>var d = new Date();
         document.write(d.getFullYear());</script> <a href="https://www.vmware.com/">VMware</a>, Inc. or its affiliates. <a href="https://www.vmware.com/help/legal.html">Terms of Use</a> • <a href="https://www.vmware.com/help/privacy.html" rel="noopener noreferrer">Privacy</a> • <a href="https://spring.io/trademarks">Trademark Guidelines</a> <span id="thank-you-mobile">• <a href="https://spring.io/thank-you">Thank you</a></span> • <a href="https://www.vmware.com/help/privacy/california-privacy-rights.html">Your California Privacy Rights</a> • <a class="ot-sdk-show-settings">Cookie Settings</a> <span id="teconsent"></span></p>
         <p class="smallest antialiased has-gray-text">Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra&trade;, and Apache Geode&trade; are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java&trade;, Java&trade; SE, Java&trade; EE, and OpenJDK&trade; are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.</p>
@@ -312,9 +521,9 @@ If you typed the URL of this page manually, please double check that you entered
         <a href="https://twitter.com/springcentral" title="Twitter"><svg id="twitter-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.93 75.93"><circle class="cls-1" cx="37.97" cy="37.97" r="37.97"/><path id="Twitter-2" data-name="Twitter" class="cls-2" d="M55.2,22.73a15.43,15.43,0,0,1-4.88,1.91,7.56,7.56,0,0,0-5.61-2.49A7.78,7.78,0,0,0,37,30a7.56,7.56,0,0,0,.2,1.79,21.63,21.63,0,0,1-15.84-8.23,8,8,0,0,0,2.37,10.52,7.66,7.66,0,0,1-3.48-1v.09A7.84,7.84,0,0,0,26.45,41a7.54,7.54,0,0,1-2,.28A7.64,7.64,0,0,1,23,41.09a7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37,15.78,15.78,0,0,1-1.83-.11,21.41,21.41,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.67,15.67,0,0,0,3.83-4.08,14.9,14.9,0,0,1-4.41,1.24A7.8,7.8,0,0,0,55.2,22.73Z"/></svg></a>
     </div>
 </footer>
-<script src="/spring-data-commons/_/js/site.js"></script>
-<script async src="/spring-data-commons/_/js/vendor/highlight.js"></script>
-<script async src="/spring-data-commons/_/js/vendor/spring-tabs.js" data-sync-storage-key="docs:preferred-tab"></script>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+<script async src="../_/js/vendor/asciidoctor-tabs.js" data-sync-storage-key="docs:preferred-tab"></script>
 
 
 <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
@@ -325,8 +534,8 @@ If you typed the URL of this page manually, please double check that you entered
                 <div id="counter"></div>
                 <div class="search-by">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.algolia.com/" aria-label="Search by Algolia">
-                        <img class="light" width="140" src="/spring-data-commons/_/img/algolia-light.svg" />
-                        <img class="dark" width="140" src="/spring-data-commons/_/img/algolia-dark.svg" />
+                        <img class="light" width="140" src="../_/img/algolia-light.svg" />
+                        <img class="dark" width="140" src="../_/img/algolia-dark.svg" />
                     </a>
                 </div>
                 <div id="hits"></div>
@@ -338,7 +547,7 @@ If you typed the URL of this page manually, please double check that you entered
 <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.17.0/dist/algoliasearch-lite.umd.js" integrity="sha256-Lf9DrpGmcRip6OQzbcL6lnvNmoZNSKpyQX5pMlwatWE=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.54.1/dist/instantsearch.production.min.js" integrity="sha256-xYsZPDeNjYNTBWLvqD2Lxe98hOxcDgOHyMPfz4tVAbk=" crossorigin="anonymous"></script>
-<script async id="search-script" src="/spring-data-commons/_/js/vendor/search.js" data-app-id="WB1FQYI187" data-api-key="9d489079e5ec46dbb238909fee5c9c29" data-index-name="springdatacommons" data-stylesheet="/spring-data-commons/_/css/vendor/search.css" data-page-version=""></script>
+<script async id="search-script" src="../_/js/vendor/search.js" data-app-id="WB1FQYI187" data-api-key="9d489079e5ec46dbb238909fee5c9c29" data-index-name="springdatacommons" data-stylesheet="../_/css/vendor/search.css" data-page-version="3.2.0-SNAPSHOT"></script>
 
   </body>
 </html>

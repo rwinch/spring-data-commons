@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Page Not Found :: Spring Data Commons</title>
+    <title>Kotlin Support :: Spring Data Commons</title>
+    <link rel="canonical" href="https://rwinch.github.io/spring-data-commons/kotlin.html">
     <meta name="generator" content="Antora 3.2.0-alpha.2">
     <script>
 !function (theme, navWidth) {
@@ -12,15 +13,15 @@
 }(localStorage && localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)') && 'dark'),
   localStorage && localStorage.getItem('nav-width'))
     </script>
-    <link rel="stylesheet" href="/spring-data-commons/_/css/site.css">
-    <link rel="stylesheet" href="/spring-data-commons/_/css/vendor/search.css">
-    <link rel="stylesheet" href="/spring-data-commons/_/css/vendor/spring-tabs.css">
+    <link rel="stylesheet" href="./_/css/site.css">
+    <link rel="stylesheet" href="./_/css/vendor/search.css">
+    <link rel="stylesheet" href="./_/css/vendor/asciidoctor-tabs.css">
 
-    <meta name="version" content="">
-    <meta name="component" content="">
-    <link rel="icon" href="/spring-data-commons/_/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <meta name="version" content="3.2.0-SNAPSHOT">
+    <meta name="component" content="data-commons">
+    <link rel="icon" href="./_/img/favicon.ico" type="image/vnd.microsoft.icon">
   </head>
-  <body class="status-404">
+  <body class="article">
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
@@ -28,7 +29,7 @@
         <img
           id="springlogo"
           class="block"
-          src="/spring-data-commons/_/img/spring-logo.svg"
+          src="./_/img/spring-logo.svg"
           alt="Spring"
         />
       </a>
@@ -238,14 +239,14 @@
   }
 }(localStorage && localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)') && 'dark'))
 </script><div class="body">
-<div class="nav-container">
+<div class="nav-container" data-component="data-commons" data-version="3.2.0-SNAPSHOT">
   <aside class="nav">
     <div class="panels">
       <div class="nav-panel-menu is-active" data-panel="menu">
         <nav class="nav-menu">
 <div class="context">
-  <span class="title"></span>
-  <span class="version"></span>
+  <span class="title">Spring Data Commons</span>
+  <span class="version">3.2.0-SNAPSHOT</span>
 </div><div class="search">
   <button class="DocSearch-Button search-button">
     <svg enable-background="new 0 0 32 32" id="Glyph" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -255,15 +256,87 @@
     <span class="search-key"></span>
   </button>
 </div>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">Overview</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="dependencies.html">Dependencies</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="object-mapping.html">Object Mapping Fundamentals</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="repositories.html">Working with Spring Data Repositories</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/core-concepts.html">Core concepts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/query-methods.html">Query Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/definition.html">Defining Repository Interfaces</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/query-methods-details.html">Defining Query Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/create-instances.html">Creating Repository Instances</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/custom-implementations.html">Custom Implementations for Spring Data Repositories</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/core-domain-events.html">Publishing Events from Aggregate Roots</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repositories/core-extensions.html">Spring Data Extensions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="repository-projections.html">Projections</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="query-by-example.html">Query by Example</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="auditing.html">Auditing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Appendices</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository-namespace-reference.html">Namespace reference</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository-populator-namespace-reference.html">Populators namespace reference</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository-query-keywords-reference.html">Repository query keywords</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository-query-return-types-reference.html">Repository query return types</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
         </nav>
       </div>
     </div>
 <ul id="nav-versions" class="nav-versions">
-  <li class="component">
-    <a class="title" href="/spring-data-commons/index.html">Spring Data Commons</a>
+  <li class="component is-current">
+    <a class="title" href="index.html">Spring Data Commons</a>
     <ul class="versions">
-      <li class="version is-latest">
-        <a href="/spring-data-commons/index.html">
+      <li class="version is-current is-latest">
+        <a href="index.html">
           3.2.0-SNAPSHOT<span class="current">current</span>
         </a>
       </li>
@@ -286,22 +359,112 @@
 </div>
 </div>
   <div class="content">
-<article class="doc">
-<h1 class="page">Page Not Found</h1>
+<aside class="sidebar">
+  <div class="content">
+    <div
+      class="toc"
+      data-title="Kotlin Support"
+      data-levels="2"
+    >
+      <div class="toc-menu"></div>
+    </div>
+      <div class="edit-this-page"><a href="https://github.com/rwinch/spring-data-commons/edit/antora/modules/ROOT/pages/kotlin.adoc">Edit this Page</a></div>
+      </div>
+</aside><div class="doc">
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Spring Data Commons</a></li>
+    <li><a href="kotlin.html">Kotlin Support</a></li>
+  </ul>
+</nav>
+<article>
+<h1 id="page-title" class="page">Kotlin Support</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>The page you&#8217;re looking for does not exist. It may have been moved. You can follow one of the links in the navigation to the left.</p>
+<p><a href="https://kotlinlang.org">Kotlin</a> is a statically typed language that targets the JVM (and other platforms) which allows writing concise and elegant code while providing excellent <a href="https://kotlinlang.org/docs/reference/java-interop.html">interoperability</a> with existing libraries written in Java.</p>
 </div>
 <div class="paragraph">
-<p>If you arrived on this page by clicking on a link, please notify the owner of the site that the link is broken.
-If you typed the URL of this page manually, please double check that you entered the address correctly.</p>
+<p>Spring Data provides first-class support for Kotlin and lets developers write Kotlin applications almost as if Spring Data was a Kotlin native framework.</p>
+</div>
+<div class="paragraph">
+<p>The easiest way to build a Spring application with Kotlin is to leverage Spring Boot and its <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-kotlin.html">dedicated Kotlin support</a>.
+This comprehensive <a href="https://spring.io/guides/tutorials/spring-boot-kotlin/">tutorial</a> will teach you how to build Spring Boot applications with Kotlin using <a href="https://start.spring.io/#!language=kotlin&amp;type=gradle-project">start.spring.io</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kotlin.requirements"><a class="anchor" href="#kotlin.requirements"></a>Requirements</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Spring Data supports Kotlin 1.3 and requires <code>kotlin-stdlib</code> (or one of its variants, such as <code>kotlin-stdlib-jdk8</code>) and <code>kotlin-reflect</code> to be present on the classpath.
+Those are provided by default if you bootstrap a Kotlin project via <a href="https://start.spring.io/#!language=kotlin&amp;type=gradle-project">start.spring.io</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kotlin.null-safety"><a class="anchor" href="#kotlin.null-safety"></a>Null Safety</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One of Kotlin&#8217;s key features is <a href="https://kotlinlang.org/docs/null-safety.html">null safety</a>, which cleanly deals with <code>null</code> values at compile time.
+This makes applications safer through nullability declarations and the expression of &#8220;value or no value&#8221; semantics without paying the cost of wrappers, such as <code>Optional</code>.
+(Kotlin allows using functional constructs with nullable values. See this <a href="https://www.baeldung.com/kotlin/null-safety">comprehensive guide to Kotlin null safety</a>.)</p>
+</div>
+<div class="paragraph">
+<p>Although Java does not let you express null safety in its type system, Spring Data API is annotated with <a href="https://jcp.org/en/jsr/detail?id=305">JSR-305</a> tooling friendly annotations declared in the <code>org.springframework.lang</code> package.
+By default, types from Java APIs used in Kotlin are recognized as <a href="https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types">platform types</a>, for which null checks are relaxed.
+<a href="https://kotlinlang.org/docs/reference/java-interop.html#jsr-305-support">Kotlin support for JSR-305 annotations</a> and Spring nullability annotations provide null safety for the whole Spring Data API to Kotlin developers, with the advantage of dealing with <code>null</code> related issues at compile time.</p>
+</div>
+<div class="paragraph">
+<p>See <a href="repositories-null-handling.html" class="xref page">Null Handling of Repository Methods</a> how null safety applies to Spring Data Repositories.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>You can configure JSR-305 checks by adding the <code>-Xjsr305</code> compiler flag with the following options: <code>-Xjsr305={strict|warn|ignore}</code>.</p>
+</div>
+<div class="paragraph">
+<p>For Kotlin versions 1.1+, the default behavior is the same as <code>-Xjsr305=warn</code>.
+The <code>strict</code> value is required take Spring Data API null-safety into account. Kotlin types inferred from Spring API but should be used with the knowledge that Spring API nullability declaration could evolve, even between minor releases and that more checks may be added in the future.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Generic type arguments, varargs, and array elements nullability are not supported yet, but should be in an upcoming release.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kotlin.mapping"><a class="anchor" href="#kotlin.mapping"></a>Object Mapping</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>See <a href="object-mapping.html#mapping.kotlin" class="xref page">Kotlin support</a> for details on how Kotlin objects are materialized.</p>
+</div>
+</div>
 </div>
 </article>
-  </div>
+</div>  </div>
 </main>
 </div>
 <footer class="footer flex">
     <div id="spring-links flex">
-        <img id="springlogo" src="/spring-data-commons/_/img/spring-logo.svg" alt="Spring">
+        <img id="springlogo" src="./_/img/spring-logo.svg" alt="Spring">
         <p class="smallest antialiased">© <script>var d = new Date();
         document.write(d.getFullYear());</script> <a href="https://www.vmware.com/">VMware</a>, Inc. or its affiliates. <a href="https://www.vmware.com/help/legal.html">Terms of Use</a> • <a href="https://www.vmware.com/help/privacy.html" rel="noopener noreferrer">Privacy</a> • <a href="https://spring.io/trademarks">Trademark Guidelines</a> <span id="thank-you-mobile">• <a href="https://spring.io/thank-you">Thank you</a></span> • <a href="https://www.vmware.com/help/privacy/california-privacy-rights.html">Your California Privacy Rights</a> • <a class="ot-sdk-show-settings">Cookie Settings</a> <span id="teconsent"></span></p>
         <p class="smallest antialiased has-gray-text">Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra&trade;, and Apache Geode&trade; are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java&trade;, Java&trade; SE, Java&trade; EE, and OpenJDK&trade; are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.</p>
@@ -312,9 +475,9 @@ If you typed the URL of this page manually, please double check that you entered
         <a href="https://twitter.com/springcentral" title="Twitter"><svg id="twitter-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.93 75.93"><circle class="cls-1" cx="37.97" cy="37.97" r="37.97"/><path id="Twitter-2" data-name="Twitter" class="cls-2" d="M55.2,22.73a15.43,15.43,0,0,1-4.88,1.91,7.56,7.56,0,0,0-5.61-2.49A7.78,7.78,0,0,0,37,30a7.56,7.56,0,0,0,.2,1.79,21.63,21.63,0,0,1-15.84-8.23,8,8,0,0,0,2.37,10.52,7.66,7.66,0,0,1-3.48-1v.09A7.84,7.84,0,0,0,26.45,41a7.54,7.54,0,0,1-2,.28A7.64,7.64,0,0,1,23,41.09a7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37,15.78,15.78,0,0,1-1.83-.11,21.41,21.41,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.67,15.67,0,0,0,3.83-4.08,14.9,14.9,0,0,1-4.41,1.24A7.8,7.8,0,0,0,55.2,22.73Z"/></svg></a>
     </div>
 </footer>
-<script src="/spring-data-commons/_/js/site.js"></script>
-<script async src="/spring-data-commons/_/js/vendor/highlight.js"></script>
-<script async src="/spring-data-commons/_/js/vendor/spring-tabs.js" data-sync-storage-key="docs:preferred-tab"></script>
+<script src="./_/js/site.js"></script>
+<script async src="./_/js/vendor/highlight.js"></script>
+<script async src="./_/js/vendor/asciidoctor-tabs.js" data-sync-storage-key="docs:preferred-tab"></script>
 
 
 <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
@@ -325,8 +488,8 @@ If you typed the URL of this page manually, please double check that you entered
                 <div id="counter"></div>
                 <div class="search-by">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.algolia.com/" aria-label="Search by Algolia">
-                        <img class="light" width="140" src="/spring-data-commons/_/img/algolia-light.svg" />
-                        <img class="dark" width="140" src="/spring-data-commons/_/img/algolia-dark.svg" />
+                        <img class="light" width="140" src="./_/img/algolia-light.svg" />
+                        <img class="dark" width="140" src="./_/img/algolia-dark.svg" />
                     </a>
                 </div>
                 <div id="hits"></div>
@@ -338,7 +501,7 @@ If you typed the URL of this page manually, please double check that you entered
 <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.17.0/dist/algoliasearch-lite.umd.js" integrity="sha256-Lf9DrpGmcRip6OQzbcL6lnvNmoZNSKpyQX5pMlwatWE=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.54.1/dist/instantsearch.production.min.js" integrity="sha256-xYsZPDeNjYNTBWLvqD2Lxe98hOxcDgOHyMPfz4tVAbk=" crossorigin="anonymous"></script>
-<script async id="search-script" src="/spring-data-commons/_/js/vendor/search.js" data-app-id="WB1FQYI187" data-api-key="9d489079e5ec46dbb238909fee5c9c29" data-index-name="springdatacommons" data-stylesheet="/spring-data-commons/_/css/vendor/search.css" data-page-version=""></script>
+<script async id="search-script" src="./_/js/vendor/search.js" data-app-id="WB1FQYI187" data-api-key="9d489079e5ec46dbb238909fee5c9c29" data-index-name="springdatacommons" data-stylesheet="./_/css/vendor/search.css" data-page-version="3.2.0-SNAPSHOT"></script>
 
   </body>
 </html>

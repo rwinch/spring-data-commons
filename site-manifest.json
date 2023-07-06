@@ -1,6 +1,6 @@
 {
   "$id": "https://schemas.antora.org/site-manifest/1-0-0/draft-01",
-  "generated": "2023-06-29T20:55:50.777Z",
+  "generated": "2023-07-06T22:10:45.349Z",
   "url": "https://rwinch.github.io/spring-data-commons",
   "components": {
     "data-commons": {
@@ -57,11 +57,13 @@
             },
             {
               "path": "repositories-null-handling.adoc",
-              "url": "/repositories-null-handling.html"
+              "url": "/repositories-null-handling.html",
+              "title": "Untitled"
             },
             {
               "path": "repositories-scrolling.adoc",
-              "url": "/repositories-scrolling.html"
+              "url": "/repositories-scrolling.html",
+              "title": "Untitled"
             },
             {
               "path": "repositories.adoc",

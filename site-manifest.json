@@ -1,6 +1,6 @@
 {
   "$id": "https://schemas.antora.org/site-manifest/1-0-0/draft-01",
-  "generated": "2023-07-12T18:32:01.913Z",
+  "generated": "2023-07-12T18:48:06.002Z",
   "url": "https://rwinch.github.io/spring-data-commons",
   "components": {
     "data-commons": {
@@ -21,9 +21,19 @@
               "title": "Auditing"
             },
             {
+              "path": "custom-conversions.adoc",
+              "url": "/custom-conversions.html",
+              "title": "Custom Conversions"
+            },
+            {
               "path": "dependencies.adoc",
               "url": "/dependencies.html",
               "title": "Dependencies"
+            },
+            {
+              "path": "entity-callbacks.adoc",
+              "url": "/entity-callbacks.html",
+              "title": "Entity Callbacks"
             },
             {
               "path": "is-new-state-detection.adoc",
@@ -31,19 +41,34 @@
               "title": "Entity State Detection Strategies"
             },
             {
-              "path": "kotlin-coroutines.adoc",
-              "url": "/kotlin-coroutines.html",
-              "title": "Coroutines"
-            },
-            {
-              "path": "kotlin-extensions.adoc",
-              "url": "/kotlin-extensions.html",
-              "title": "Extensions"
-            },
-            {
               "path": "kotlin.adoc",
               "url": "/kotlin.html",
               "title": "Kotlin Support"
+            },
+            {
+              "path": "kotlin/coroutines.adoc",
+              "url": "/kotlin/coroutines.html",
+              "title": "Coroutines"
+            },
+            {
+              "path": "kotlin/extensions.adoc",
+              "url": "/kotlin/extensions.html",
+              "title": "Extensions"
+            },
+            {
+              "path": "kotlin/null-safety.adoc",
+              "url": "/kotlin/null-safety.html",
+              "title": "Null Safety"
+            },
+            {
+              "path": "kotlin/object-mapping.adoc",
+              "url": "/kotlin/object-mapping.html",
+              "title": "Object Mapping"
+            },
+            {
+              "path": "kotlin/requirements.adoc",
+              "url": "/kotlin/requirements.html",
+              "title": "Requirements"
             },
             {
               "path": "object-mapping.adoc",
@@ -58,12 +83,12 @@
             {
               "path": "repositories-null-handling.adoc",
               "url": "/repositories-null-handling.html",
-              "title": "Untitled"
+              "title": "Null Handling of Repository Methods"
             },
             {
               "path": "repositories-scrolling.adoc",
               "url": "/repositories-scrolling.html",
-              "title": "Untitled"
+              "title": "Scrolling"
             },
             {
               "path": "repositories.adoc",
